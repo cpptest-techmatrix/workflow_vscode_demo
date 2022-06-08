@@ -1,5 +1,5 @@
 # Use C++test 2021.1
-name: CI-Test-2021
+name: CI-Test-2021-branch
 
 on:
   push:
