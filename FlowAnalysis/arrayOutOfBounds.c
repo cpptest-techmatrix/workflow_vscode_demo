@@ -11,6 +11,7 @@ int32_t clip(int32_t n, int32_t l, int32_t h)
     return (n > h) ? h : ((n < l) ? l : n);
 }
 
+
 Person* selectPerson()
 {
     int32_t id;
