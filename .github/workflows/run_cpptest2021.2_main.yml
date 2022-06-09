@@ -3,6 +3,7 @@ name: CI-Test-2021_main
 
 on: 
   push:
+  pull_request:
     branches:
       - main
 
