@@ -2,7 +2,8 @@
 name: CI-Test-2021-branch
 
 on:
-  push:
+  pull_request:
+    types: [opened, synchronize]
     branches:
       - develop*
 
