@@ -45,5 +45,5 @@ void clearAllCache()
 
 int32_t util_func(int32_t a, int32_t b)
 {
-    return 0;
+    return a + b;
 }
